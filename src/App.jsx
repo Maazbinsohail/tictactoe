@@ -99,7 +99,7 @@ function Board({marks, player,gameOver,setGameOver,setMarks,setPlayer}) {
       setMarks(m);
       setPlayer(player === 1 ? 2 : 1);
     } else {
-      alert('please click on empty blocks');
+      alert(' winner wins the Chicken dinner');
     }
   };
 
